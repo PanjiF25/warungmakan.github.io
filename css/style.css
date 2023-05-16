@@ -422,7 +422,7 @@ body {
 
 .contact .row form .btn {
   margin-top: 3rem;
-  display: inline-block;
+  /* display: inline-block; */
   padding: 1rem 3rem;
   font-size: 1.7rem;
   color: #fff;
@@ -539,6 +539,56 @@ footer .credit a {
   padding: 1rem 1.6rem;
 }
 
+/* Loader */
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  animation: spin 2s linear infinite;
+  display: inline-block;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Display None */
+.d-none {
+  display: none;
+}
+
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #3bd03b; /* Green */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
 /* Media Queries */
 
 /* Laptop */
@@ -630,6 +680,10 @@ footer .credit a {
 
   .modal-content {
     flex-wrap: wrap;
+  }
+
+  .alert {
+    margin-top: 2rem;
   }
 }
 

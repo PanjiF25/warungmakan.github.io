@@ -48,24 +48,24 @@
         <div class="cart-item">
           <img src="img/products/1.jpg" alt="Product 1" />
           <div class="item-detail">
-            <h3>Product 1</h3>
-            <div class="item-price">IDR 30K</div>
+            <h3>Mie Goreng</h3>
+            <div class="item-price">IDR 13K</div>
           </div>
           <i data-feather="trash-2" class="remove-item"></i>
         </div>
         <div class="cart-item">
-          <img src="img/products/1.jpg" alt="Product 1" />
+          <img src="img/products/2.jpg" alt="Product 2" />
           <div class="item-detail">
-            <h3>Product 1</h3>
-            <div class="item-price">IDR 30K</div>
+            <h3>Nasi Goreng</h3>
+            <div class="item-price">IDR 10K</div>
           </div>
           <i data-feather="trash-2" class="remove-item"></i>
         </div>
         <div class="cart-item">
-          <img src="img/products/1.jpg" alt="Product 1" />
+          <img src="img/products/3.jpg" alt="Product 3" />
           <div class="item-detail">
-            <h3>Product 1</h3>
-            <div class="item-price">IDR 30K</div>
+            <h3>Ayam Goreng</h3>
+            <div class="item-price">IDR 13K</div>
           </div>
           <i data-feather="trash-2" class="remove-item"></i>
         </div>
@@ -79,7 +79,7 @@
       <main class="content">
         <h1>Mari Nikmati Hidangan <span>Kami</span></h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, obcaecati?</p>
-        <a href="#" class="cta">Beli Sekarang</a>
+        <a href="#products" class="cta">Beli Sekarang</a>
       </main>
     </section>
     <!-- Hero Section End -->
@@ -104,7 +104,7 @@
     <!-- Menu Section Start -->
     <section id="menu" class="menu">
       <h2><span>Menu</span> Kami</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ex architecto mollitia illo, sit quasi?</p>
+      <p>Terdapat beberapa menu hidangan yang kami sediakan untuk anda.</p>
       <div class="row">
         <div class="menu-card">
           <img src="img/menu/1.jpg" alt="Mie Goreng" class="menu-card-img" />
@@ -112,13 +112,13 @@
           <p class="menu-card-price">IDR 13K</p>
         </div>
         <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Mie Goreng" class="menu-card-img" />
-          <h3 class="menu-card-title">- Mie Goreng -</h3>
-          <p class="menu-card-price">IDR 13K</p>
+          <img src="img/menu/2.jpg" alt="Mie Goreng" class="menu-card-img" />
+          <h3 class="menu-card-title">- Nasi Goreng -</h3>
+          <p class="menu-card-price">IDR 10K</p>
         </div>
         <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Mie Goreng" class="menu-card-img" />
-          <h3 class="menu-card-title">- Mie Goreng -</h3>
+          <img src="img/menu/3.jpg" alt="Mie Goreng" class="menu-card-img" />
+          <h3 class="menu-card-title">- Ayam Goreng -</h3>
           <p class="menu-card-price">IDR 13K</p>
         </div>
         <div class="menu-card">
@@ -143,7 +143,7 @@
     <!-- Products Section Start -->
     <section class="products" id="products">
       <h2><span>Produk Unggulan</span> Kami</h2>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, omnis aliquam labore eveniet repellat dolores?</p>
+      <p>Kami menyediakan beberapa hidangan unggulan kami. Di bawah ini merupakan hidangan unggulan kami.</p>
 
       <div class="row">
         <div class="product-card">
@@ -172,10 +172,10 @@
             <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
           </div>
           <div class="product-image">
-            <img src="img/products/1.jpg" alt="Product 1" />
+            <img src="img/products/2.jpg" alt="Product 2" />
           </div>
           <div class="product-content">
-            <h3>Mie Goreng</h3>
+            <h3>Nasi Goreng</h3>
             <div class="product-stars">
               <i data-feather="star" class="star-full"></i>
               <i data-feather="star" class="star-full"></i>
@@ -183,7 +183,7 @@
               <i data-feather="star" class="star-full"></i>
               <i data-feather="star" class="star-full"></i>
             </div>
-            <div class="product-price">IDR 13K</div>
+            <div class="product-price">IDR 10K</div>
           </div>
         </div>
         <div class="product-card">
@@ -192,10 +192,10 @@
             <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
           </div>
           <div class="product-image">
-            <img src="img/products/1.jpg" alt="Product 1" />
+            <img src="img/products/3.jpg" alt="Product 3" />
           </div>
           <div class="product-content">
-            <h3>Mie Goreng</h3>
+            <h3>Ayam Goreng</h3>
             <div class="product-stars">
               <i data-feather="star"></i>
               <i data-feather="star"></i>
@@ -213,7 +213,7 @@
     <!-- Contact Section Start -->
     <section id="contact" class="contact">
       <h2><span>Kontak</span> Kami</h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, quas.</p>
+      <p>Isi Form di bawah untuk memesan hidangan kami.</p>
 
       <div class="row">
         <iframe
@@ -224,24 +224,33 @@
           class="map"
         ></iframe>
 
-        <form action="">
+        <form name="kontak-warung-makan" action="">
+          <div class="alert my-alert d-none">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <strong>Terimakasih!</strong> Pesan anda sudah kami terima.
+          </div>
           <div class="input-group">
             <i data-feather="user"></i>
-            <input type="text" placeholder="Nama" />
+            <input type="text" placeholder="Nama" name="nama" />
           </div>
           <div class="input-group">
             <i data-feather="map-pin"></i>
-            <input type="text" placeholder="Alamat" />
+            <input type="text" placeholder="Alamat" name="alamat" />
           </div>
           <div class="input-group">
             <i data-feather="phone"></i>
-            <input type="text" placeholder="No HP" />
+            <input type="text" placeholder="No HP" name="no" />
           </div>
           <div class="input-group">
             <i data-feather="mail"></i>
-            <input type="text" placeholder="Pesan" />
+            <input type="text" placeholder="Pesan" name="pesan" />
           </div>
-          <button type="submit" class="btn">Kirim Pesan</button>
+          <button type="submit" class="btn btn-kirim">Kirim Pesan</button>
+
+          <button type="submit" class="btn btn-loading d-none">
+            <div class="loader"></div>
+            Loading...
+          </button>
         </form>
       </div>
     </section>
@@ -263,7 +272,7 @@
       </div>
 
       <div class="credit">
-        <p>Created by <a href="">Muhammad Panji Fathuroni</a>. | &copy; 2023</p>
+        <p>Created by <a href="https://www.instagram.com/m.panjifathuroni/">Muhammad Panji Fathuroni</a>. | &copy; 2023</p>
       </div>
     </footer>
     <!-- Footer End -->
@@ -299,5 +308,33 @@
 
     <!-- My Javascript -->
     <script src="js/script.js"></script>
+
+    <script>
+      const scriptURL = "https://script.google.com/macros/s/AKfycbx61l9BMUlw6iybRDm9H62Yf2UIK-esR8v264zSk9bfZtGy0GaiRCK1JRkQg2ufg2Qwpg/exec";
+      const form = document.forms["kontak-warung-makan"];
+      const btnKirim = document.querySelector(".btn-kirim");
+      const btnLoading = document.querySelector(".btn-loading");
+      const myAlert = document.querySelector(".my-alert");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        // ketika tombol submit diklik
+        // tampilkan tombol loading, hilangkan tombol kirim
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            // tampilkan tombol kirim, hilangkan tombol loading
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            // tampilkan alert
+            myAlert.classList.toggle("d-none");
+            // reset formnya
+            form.reset();
+            console.log("Success!", response);
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
   </body>
 </html>
